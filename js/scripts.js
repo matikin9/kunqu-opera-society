@@ -5,4 +5,9 @@ document.addEventListener('DOMContentLoaded', function() {
             nav_link.classList.add('active');
         });
     });
+
+    let myCarouselElement = document.querySelector('#carouselPhotos');
+
+    let carousel = new bootstrap.Carousel(myCarouselElement);
 });
+

@@ -1,255 +1,276 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Kunqu Opera Society, USA</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
-
-<!--    <script src="js/bootstrap.min.js"></script>-->
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kunqu Opera Society, USA</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md sticky-top bg-light">
-        <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-          </button>  
-          <a class="navbar-brand" href="#"><img src="img/logo-header.png" class="px-2" height="50"></a>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav me-auto mb-2 mb-md-0">
-              <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#events-upcoming">Upcoming Events</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="#events-past">Past Events</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="#contact">Contact Us</a>
-              </li>
-            </ul>
+  <nav class="navbar navbar-expand-md navbar-light sticky-top bg-light">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+              aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="#"><img src="img/logo-header.png" class="px-2" height="50" alt="logo"></a>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#events-upcoming">Upcoming Events</a></li>
+          <li class="nav-item"><a class="nav-link" href="#events-past">Past Events</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container">
+    <div class="bg-body-tertiary p-5 rounded">
+      <div id="carouselPhotos" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="3000">
+            <img src="img/p01.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="img/p02.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="img/p03.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="img/p04.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="img/p05.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="img/p06.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="img/p07.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="img/p08.jpg" class="d-block w-100" alt="...">
+          </div>
         </div>
-    </nav>
-    <main class="container"> 
-        <div class="bg-body-tertiary p-5 rounded">
-          <div id="carouselPhotos" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active" data-bs-interval="3000">
-                <img src="img/p01.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item" data-bs-interval="3000">
-                <img src="img/p02.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item" data-bs-interval="3000">
-                <img src="img/p03.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item" data-bs-interval="3000">
-                <img src="img/p04.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item" data-bs-interval="3000">
-                <img src="img/p05.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item" data-bs-interval="3000">
-                <img src="img/p06.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item" data-bs-interval="3000">
-                <img src="img/p07.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item" data-bs-interval="3000">
-                <img src="img/p08.jpg" class="d-block w-100" alt="...">
-              </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselPhotos" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselPhotos" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div>
+        <p class="mb-4">
+          The <strong>Kunqu Opera Society, USA</strong> was founded in 1979. Our mission is to preserve and
+          promote the Kunqu performing art, and to introduce this heritage to the diverse communities of Los Angeles.
+          In addition to regular practices, we perform and present educational programs at universities, museums,
+          libraries, local communities, and other cultural events, with bilingual subtitles (Chinese/English) to
+          support understanding and appreciation.
+        </p>
+        <p>
+          We believe a living art endures through the value of the art itself, the quality of performers and productions,
+          behind-the-scenes technical support, the dedication of volunteers, strong sponsorship and donations, and—most
+          importantly—the encouragement of our audiences.
+        </p>
+      </div>
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+        <a href="https://www.youtube.com/@kunquoperaorg" class="btn btn-danger px-4 gap-3">Visit our YouTube Channel</a>
+      </div>
+    </div>
+
+    <!-- ===== UPCOMING (NEW SINGLE EVENT) ===== -->
+    <div class="p-5" id="events-upcoming">
+      <h1>Upcoming Events</h1>
+
+      <!-- Poster -->
+      <div class="my-4">
+        <img src="img/poster-2025-autumn.jpg" class="img-fluid rounded shadow-sm" alt="Autumn Resplendence Poster" loading="lazy">
+      </div>
+
+      <!-- Titles -->
+      <h2 class="mt-4 mb-2">美西昆曲社2025秋季公演</h2>
+      <h3 class="h4 text-muted">Kunqu Opera Society USA 2025 Autumn Performance</h3>
+
+      <!-- EN intro -->
+      <p class="mt-3">
+        Come join us for a mesmerizing evening of traditional Chinese Kunqu opera at the Dynasty Theater!
+        The Kunqu Opera Society USA is proud to present the 2025 Autumn Performance, featuring talented
+        performers showcasing this ancient art form. Don’t miss this opportunity to experience the beauty
+        and grace of Kunqu live on stage. Get your tickets now!
+      </p>
+
+      <!-- ZH + EN feature lines -->
+      <p class="mb-1">本次演出包含崑曲清工、彩爨，以及中國傳統民樂表演。</p>
+      <p class="mb-4">
+        This autumn performance features the dual forms of Kunqu—the pure vocal artistry of
+        <em>qinggong</em> (清工, recital-style Kunqu) and the theatrical performances of
+        <em>caicuan</em> (彩爨, staged form)—as well as traditional Chinese instrumental music.
+      </p>
+
+      <!-- Program list -->
+      <h4 class="mt-4">演出曲目 · Performance Highlights</h4>
+      <ul>
+        <li>《孽海記·思凡》（節選） — <em>Si Fan</em> (excerpt from <em>Nie Hai Ji</em> / The Ocean of Sin) — <span class="text-muted">Yearning for an Ordinary Life</span></li>
+        <li>《南柯記·瑤台》（節選） — <em>Yao Tai</em> (excerpt from <em>Nan Ke Ji</em> / The Nanke Dream) — <span class="text-muted">The Jade Terrace</span></li>
+        <li>《浣紗記·寄子》 — <em>Ji Zi</em> (from <em>Huan Sha Ji</em> / The Tale of Washing the Silken Gauze) — <span class="text-muted">Entrusting the Son</span></li>
+        <li>《鳳凰山·百花贈劍》 — <em>Baihua Zeng Jian</em> (from <em>Fenghuang Shan</em> / The Phoenix Mountain) — <span class="text-muted">Princess Baihua Bestows Her Sword</span></li>
+        <li>《牡丹亭·尋夢》（節選） — <em>Xun Meng</em> (excerpt from <em>Mu Dan Ting</em> / The Peony Pavilion) — <span class="text-muted">Recollecting the Dream</span></li>
+        <li>《蝴蝶夢·說親》（節選） — <em>Shuo Qin</em> (excerpt from <em>Hu Die Meng</em> / The Butterfly Dream) — <span class="text-muted">A Match Besought</span></li>
+        <li>特邀嘉賓演出《牡丹亭·遊園》 — <em>You Yuan</em> (from <em>Mu Dan Ting</em> / The Peony Pavilion) — <span class="text-muted">A Stroll through the Garden</span></li>
+      </ul>
+
+      <!-- Ticket button -->
+      <div class="d-grid d-sm-flex gap-2 mt-4">
+        <a class="btn btn-primary btn-lg"
+           href="https://www.eventbrite.com/e/2025-kunqu-opera-society-usa-2025-autumn-performance-tickets-1677134667939"
+           target="_blank" rel="noopener noreferrer">
+          Get Tickets on Eventbrite
+        </a>
+      </div>
+    </div>
+
+    <!-- ===== PAST EVENTS ===== -->
+    <div class="p-5" id="events-past">
+      <h1>Past Events</h1>
+
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              2020-present
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <ul>
+                <!-- moved from previous Upcoming -->
+                <li>2/2/2025 — “An Interrupted Dream” from <em>The Peony Pavilion</em>, Chinese Garden, Celebration Court (Huntington Library), 11:00–11:30 am &amp; 1:00–1:30 pm</li>
+                <li>2/1/2025 — “Inquiry about Illness” from <em>The Tale of the Jade Hairpin</em>, Chinese Garden, Celebration Court (Huntington Library), 11:00–11:30 am &amp; 1:00–1:30 pm</li>
+                <li>1/11/2025 — “Princess Baihua Bestows Her Sword,” Mark Taper Auditorium (Los Angeles Central Library), 2:30–3:00 pm</li>
+
+                <li>2/5/2022 - 2022 Chinese New Year Festival of Liu Fang Yuan, "The School Room" by Yimeng Liu, Fang Wei and Wei Wang，"A Stroll in the Garden" by Wei Wang and Yimeng Liu at the Huntington Library, San Marino</li>
+                <li>2/5/2023 - 2023 Chinese New Year Festival of Liu Fang Yuan, "A Sweet Rendezvous" by Liyung Hou, Wei Wang and Yimeng Liu at the Huntington Library, San Marino</li>
+                <li>1/14/2024 - "A Stroll in the Garden" by Wei Wang and Yimeng Liu, "The Banquet" by Bin Ma and Fang Wei, "Mistake With a Kite" by Wei Wang and Sunny Zhang at Liu Fang Yuan, the Huntington Library, San Marino</li>
+                <li>2/10/2024 - 2024 Chinese New Year Festival of Liu Fang Yuan, "Princess Baihua Bestows Her Sword" by Bohan Yei , Fang Wei and Yimeng Liu at the Huntington Library, San Marino</li>
+                <li>2/11/2024 - 2024 Chinese New Year Festival of Liu Fang Yuan, "The Banquet" by Bin Ma and Fang Wei at the Huntington Library, San Marino</li>
+              </ul>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselPhotos" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              2010-2019
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselPhotos" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <ul>
+                <li>2/20/2010 - "A Stroll in the Garden" at the Huntington Library, San Marino</li>
+                <li>3/20/2010 & 3/21/2010 - "Peony Pavilion" at the University of California, Irvine (UCI)</li>
+                <li>8/1/2010 - "New Couple" at California Institute for Chinese Performing Art, El Monte</li>
+                <li>12/11/2010 & 12/12/2010 - "Peony Pavilion" by Ma Yaoyao, Shi Xiaomei, Lu jia, Zhu Huiying, Chen Xiaoming at the Downey Civic Theatre</li>
+                <li>4/16/2011 - "An Interrupted Dream" by Jianjing Kuang & Justina Lee, "Joe, The Connoisseur in Music" by Hui Pan & Wendy Chang, "Xu-Ge (A Lovers' Spat)" and "Xiao-Yian (A Disrupted Party)" by Taiji Wang & Liyung Hou at the Downey Civic Theatre</li>
+                <li>4/17/2012 (AM) - Lecture: The art of Kunqu Performance by Shi Xiaomei, Kunqu Studio and Jiangsu Province Kunqu Opera Troupe at Schoenberg​ Auditorium​, UCLA</li>
+                <li>4/17/2012 (PM) - "The Mountain Gate" by Zhao Yutao & Li Hongliang, "Union in the Shades from Peony Pavilian" by Shi Xiaomei & Xu Yunxiu at Schoenberg​ Auditorium​, University of California, Los Angeles (UCLA)</li>
+                <li>4/18/2012 - Lecture: The art of Kunqu Performance by Shi Xiaomei, Kunqu Studio and Jiangsu Province Kunqu Opera Troupe at the University of California, Irvine (UCI)</li>
+                <li>4/21/2012 - "Peach Blossom Fan" by Shi Xiaomei, Gong Yinlei, Zhao Jian, Li Hongliang, Xu Yunxiu, Gu Jun & Zhao Yutao at the Downey Civic Theatre</li>
+                <li>4/22/2012 - Refined Excerpts of Kunqu Classics "A Chance Meeting in the Great Hall" by Shi Xiaomei, Li Hongliang, Gong Yinlei & Xu Yunxiu, "Painting the Portrait" by Xu Yunxiu," "Captured Alive" by Gong Yinlei & Li Hongliang, "Hearing the Appeal" and "Reprimanding the Father" by Shi Xiaomei, Zhao Jian & Gu Jun at the Downey Civic Theatre</li>
+                <li>10/19/2013 - "Ballad of the Broken Axe Mountain" by Liyung Hou & Liu Xiao at the Downey Civic Theatre</li>
+                <li>8/28/2015 & 8/29/2015 - Performance of Classics of Kunqu Opera and Chinese Folk Music including Kunqu Opera Arias by Henry Chang, Susan Liu, Gina Liu, William Kin, Hui Pan and Zhaogan Li plus "The Broken Bridge" by Liyung Hou, Liping Kin & Justina Lee at the Huntington Library</li>
+                <li>10/6/2017 - "A Stroll in the Garden", "An Interrupted Dream" by Liyung Hou, Sophia Dai and Justina Lee at Eugene Public Library, Oregon</li>
+                <li>5/3/2018 & 5/6/2018 - "Garden Version of `A Stroll in the Garden` and `An Interrupted Dream`" by Ledell Wu, Sophia Dai, Wei Wang and Fang Wei at the Huntington Library</li>
+                <li>8/19/2018 - "Kunqu Opera: Love, Hatred, Passion & Vengeance" including "A Stroll in the Garden" by Wei Wang & Fang Wei, "An Interrupted Dream" by Ledell Wu & Justina Lee, "Assassination of General Tiger" by Liyung Hou and Qingxian Liu at Rothenberg Hall, the Huntington Library, San Marino</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              2000-2009
             </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <ul>
+                <li>6/17/2000 - "A Stroll in the Garden" at the San Gabriel Civic Auditorium, San Gabriel</li>
+                <li>12/2/2000 - "Steals the Poem", "Shocked by the Coup", "Bestowing a Sword" at the California Institute for Chinese Performing Art, El Monte</li>
+                <li>9/27/2003 - "Happy Union", "Rendezvous", "Haven in a Boat", "Hoo's Village" at the California Institute for Chinese Performing Art, El Monte, California"</li>
+                <li>4/17/2004 - "Asking for Tea", "For Death Together" at the California Institute for Chinese Performing Art, El Monte</li>
+                <li>2/14/2005 - "Mischief at Class" at Claremont McKenna College, Claremont</li>
+                <li>5/28/2005 - "Surprise Awakening from a Dream" at the San Gabriel Civic Auditorium, San Gabriel</li>
+                <li>10/8/2005 - "New Couple", "Goodbye, My Son" and "A Stroll in the Garden", "Surprise Awakening from a Dream" by Jennifer Hua and Yue Meiti at the California Institute for Chinese Performing Art, El Monte</li>
+                <li>8/30/2008 - "New Couple", "Goodbye, My Son", "A Stroll in the Garden", "Surprise Awakening from a Dream" at the California Institute for Chinese Performing Art, El Monte</li>
+                <li>7/25/2009 - "A Stroll in the Garden", "Steals the Poem", "Broken Bridge", "A Maddening Dream" at the California Institute for Chinese Performing Art, El Monte</li>
+              </ul>
+            </div>
           </div>
+        </div>
 
-          <div>
-            <p class="mb-4">The <strong>Chinese Kwun Opera Society</strong> was founded in 1979. Our mission is to preserve and
-                promote the Kunqu performing art, as well as to introduce this valuable art to the diverse communities in Los Angeles. In addition to our regular
-                practices, we conduct performances and educational seminars regularly at
-                universities, museums, libraries, local communities, and other cultural events. We display subtitles in both Chinese and English to help further the understanding and
-                appreciation of this art.</p>
-            <p>We truly believe that a valuable performing art can only be sustained with the following factors: the
-                value of the art itself, the quality of the performers and performances, the technical support from
-                behind the scenes, our volunteers' efforts, strong support from donors and sponsors, and the
-                acceptance and encouragement from our audiences.</p>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+              1990-1999
+            </button>
+          </h2>
+          <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <ul>
+                <li>6/23/1990 - "Broken Bridge" at the San Gabriel Civic Auditorium, San Gabriel</li>
+                <li>9/2/1990 - "Broken Bridge" at the Chinese Moon Festival in Los Angeles Chinatown</li>
+                <li>5/22/1993 - "Escorting Lady Jing-Niang" at Rosemead High School, Rosemead</li>
+                <li>5/29/1993 - "Mischief at Class", "A Stroll in the Garden", "Surprise Awakening from a Dream", "Kill General Tiger" at the Chinese Culture Center, El Monte</li>
+                <li>6/11/1994 - "Happy Union" at the Chinese Culture Center, El Monte</li>
+                <li>4/30/1995 - "Flirtation with the Zither", "Buddhist Nun Longing to Return the World", "Banquet for Two" at Chinese Culture Center, El Monte</li>
+                <li>6/2/1996 - "Escorting Lady Jing-Niang" at the Chinese Culture Center, El Monte</li>
+                <li>2/2/1997 - "Buddhist Nun Longing to Return the World, "Banquet for Two" at the Barclay Theatre, Irvine"</li>
+                <li>6/7/1997 - "A Maddening Dream" at the Chinese Culture Center, El Monte</li>
+                <li>5/23/1998 - "Steals the Poem" by Yue Meiti and Zhang Jingxian at Evergreen Bookstore, Monterey Park</li>
+                <li>6/6/1998 - "Dreamland Revisited", "Refuse for Remarriage", "Broken Bridge", "Village Searching" at the Chinese Culture Center, El Monte</li>
+              </ul>
+            </div>
           </div>
-          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-              <a href="https://www.youtube.com/@kunquoperaorg" class="btn btn-danger px-4 gap-3">Visit our
-                  YouTube Channel</a>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+              1979-1989
+            </button>
+          </h2>
+          <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <ul>
+                <li>7/1979 - Weekly meetings at Mama Yu's residence in Monterey Park</li>
+                <li>4/11/1981 - "A Stroll in the Garden" by Lisa Lu and Li-Yung Wang at the Los Angeles County Museum of Art, Los Angeles</li>
+                <li>2/23/1985 - "Riverside of Chu" at Pasadena City College, Pasadena</li>
+                <li>9/6/1987 - "A Stroll in the Garden" at San Diego State University, San Diego</li>
+                <li>6/1989 - "Happy Union" at Jackson School, Rosemead</li>
+                <li>8/1989 - Chinese Kwun Opera Society established as a non-profit organization</li>
+              </ul>
+            </div>
           </div>
         </div>
-        <div class="p-5" id="events-upcoming">
-          <h1>Upcoming Events</h1>
+      </div>
+    </div>
 
-          <div class="py-3">
-          <h2>January 11th, 2025</h2>
-          <p>
-            "Princess Baihua Bestows Her Sword" - at Mark Taper Auditorium(Los Angeles Central Public Library)<br>
-            2:30 - 3:00pm<br>
-              Walking Entrance: 630 W 5th St, Los Angeles, CA 90071<br>
-              Parking Engrance: 524 S Flower Street, Los Angeles, CA 90071<br>
-              Parking fee is $1 flat for LAPL Member. Membership is free for online or onsite registration. <br>
-              <a href="https://lapl.org/about-lapl/borrower-services#apply" target="_blank">Online Registration</a>
-          </p>
-          
-          <h2>Feburary 1st, 2025</h2>
-          <p>“Inquiry about Illness” from The Tale of the Jade Hairpin  - at Chinese Garden, Celebration Court  (Huntington Library)<br>
-            11:00 - 11:30am, 1:00 - 1:30 pm<br>
-         
-              <a href="https://huntington.org/event/lunar-new-year-festival" target="_blank">Details & RSVP here</a>
-          </p>
-          
-          <h2>Feburary 2nd, 2025</h2>
-          <p>
-            “An Interrupted Dream” from The Peony Pavilion - at Chinese Garden, Celebration Court  (Huntington Library)<br>
-            11:00 - 11:30am, 1:00 - 1:30 pm<br>
-              <a href="https://huntington.org/event/lunar-new-year-festival" target="_blan" target="_blank">Details & RSVP here</a>
-          </p>
+    <div class="p-5" id="contact">
+      <h1>Contact Us</h1>
+      <p>You can reach us at <a href="mailto:info@kunquopera.org">info@kunquopera.org</a></p>
+    </div>
+  </main>
 
-  
-        </div>
-        </div>
-        <div class="p-5" id="events-past">
-            <h1>Past Events</h1>
-            
-
-
-            <div class="accordion accordion-flush" id="accordionFlushExample">
-              <div class="accordion-item">
-                <h2 class="accordion-header">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                    2020-present
-                  </button>
-                </h2>
-                <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                  <div class="accordion-body">
-                      <ul>
-                        <li>2/5/2022 - 2022 Chinese New Year Festival of Liu Fang Yuan, "The School Room" by Yimeng Liu, Fang Wei and Wei Wang，"A Stroll in the Garden" by Wei Wang and Yimeng Liu at the Huntington Library, San Marino</li>
-                        <li>2/5/2023 - 2023 Chinese New Year Festival of Liu Fang Yuan, "A Sweet Rendezvous" by Liyung Hou, Wei Wang and Yimeng Liu at the Huntington Library, San Marino</li>
-                        <li>1/14/2024 - "A Stroll in the Garden" by Wei Wang and Yimeng Liu, "The Banquet" by Bin Ma and Fang Wei, "Mistake With a Kite" by Wei Wang and Sunny Zhang at Liu Fang Yuan, the Huntington Library, San Marino</li>
-                        <li>2/10/2024 - 2024 Chinese New Year Festival of Liu Fang Yuan, "Princess Baihua Bestows Her Sword" by Bohan Yei , Fang Wei and Yimeng Liu at the Huntington Library, San Marino</li>
-                        <li>2/11/2024 - 2024 Chinese New Year Festival of Liu Fang Yuan, "The Banquet" by Bin Ma and Fang Wei at the Huntington Library, San Marino</li>
-                      </ul>
-                  </div>
-                </div>
-              </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                      2010-2019
-                    </button>
-                  </h2>
-                  <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">
-                        <ul>
-                          <li>2/20/2010 - "A Stroll in the Garden" at the Huntington Library, San Marino</li>
-                          <li>3/20/2010 & 3/21/2010 - "Peony Pavilion" at the University of California, Irvine (UCI)</li>
-                          <li>8/1/2010 - "New Couple" at California Institute for Chinese Performing Art, El Monte</li>
-                          <li>12/11/2010 & 12/12/2010 - "Peony Pavilion" by Ma Yaoyao, Shi Xiaomei, Lu jia, Zhu Huiying, Chen Xiaoming at the Downey Civic Theatre</li>
-                          <li>4/16/2011 - "An Interrupted Dream" by Jianjing Kuang & Justina Lee, "Joe, The Connoisseur in Music" by Hui Pan & Wendy Chang, "Xu-Ge (A Lovers' Spat)" and "Xiao-Yian (A Disrupted Party)" by Taiji Wang & Liyung Hou at the Downey Civic Theatre</li>
-                          <li>4/17/2012 (AM) - Lecture: The art of Kunqu Performance by Shi Xiaomei, Kunqu Studio and Jiangsu Province Kunqu Opera Troupe at Schoenberg​ Auditorium​, UCLA</li>
-                          <li>4/17/2012 (PM) - "The Mountain Gate" by Zhao Yutao & Li Hongliang, "Union in the Shades from Peony Pavilian" by Shi Xiaomei & Xu Yunxiu at Schoenberg​ Auditorium​, University of California, Los Angeles (UCLA)</li>
-                          <li>4/18/2012 - Lecture: The art of Kunqu Performance by Shi Xiaomei, Kunqu Studio and Jiangsu Province Kunqu Opera Troupe at the University of California, Irvine (UCI)</li>
-                          <li>4/21/2012 - "Peach Blossom Fan" by Shi Xiaomei, Gong Yinlei, Zhao Jian, Li Hongliang, Xu Yunxiu, Gu Jun & Zhao Yutao at the Downey Civic Theatre</li>
-                          <li>4/22/2012 - Refined Excerpts of Kunqu Classics "A Chance Meeting in the Great Hall" by Shi Xiaomei, Li Hongliang, Gong Yinlei & Xu Yunxiu, "Painting the Portrait" by Xu Yunxiu," "Captured Alive" by Gong Yinlei & Li Hongliang, "Hearing the Appeal" and "Reprimanding the Father" by Shi Xiaomei, Zhao Jian & Gu Jun at the Downey Civic Theatre</li>
-                          <li>10/19/2013 - "Ballad of the Broken Axe Mountain" by Liyung Hou & Liu Xiao at the Downey Civic Theatre</li>
-                          <li>8/28/2015 & 8/29/2015 - Performance of Classics of Kunqu Opera and Chinese Folk Music including Kunqu Opera Arias by Henry Chang, Susan Liu, Gina Liu, William Kin, Hui Pan and Zhaogan Li plus "The Broken Bridge" by Liyung Hou, Liping Kin & Justina Lee at the Huntington Library</li>
-                          <li>10/6/2017 - "A Stroll in the Garden", "An Interrupted Dream" by Liyung Hou, Sophia Dai and Justina Lee at Eugene Public Library, Oregon</li>
-                          <li>5/3/2018 & 5/6/2018 - "Garden Version of `A Stroll in the Garden` and `An Interrupted Dream`" by Ledell Wu, Sophia Dai, Wei Wang and Fang Wei at the Huntington Library</li>
-                          <li>8/19/2018 - "Kunqu Opera: Love, Hatred, Passion & Vengeance" including "A Stroll in the Garden" by Wei Wang & Fang Wei, "An Interrupted Dream" by Ledell Wu & Justina Lee, "Assassination of General Tiger" by Liyung Hou and Qingxian Liu at Rothenberg Hall, the Huntington Library, San Marino</li>
-                        </ul>
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                      2000-2009
-                    </button>
-                  </h2>
-                  <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">
-                        <ul>
-                          <li>6/17/2000 - "A Stroll in the Garden" at the San Gabriel Civic Auditorium, San Gabriel</li>
-                          <li>12/2/2000 - "Steals the Poem", "Shocked by the Coup", "Bestowing a Sword" at the California Institute for Chinese Performing Art, El Monte</li>
-                          <li>9/27/2003 - "Happy Union", "Rendezvous", "Haven in a Boat", "Hoo's Village" at the California Institute for Chinese Performing Art, El Monte, California"</li>
-                          <li>4/17/2004 - "Asking for Tea", "For Death Together" at the California Institute for Chinese Performing Art, El Monte</li>
-                          <li>2/14/2005 - "Mischief at Class" at Claremont McKenna College, Claremont</li>
-                          <li>5/28/2005 - "Surprise Awakening from a Dream" at the San Gabriel Civic Auditorium, San Gabriel</li>
-                          <li>10/8/2005 - "New Couple", "Goodbye, My Son" and "A Stroll in the Garden", "Surprise Awakening from a Dream" by Jennifer Hua and Yue Meiti at the California Institute for Chinese Performing Art, El Monte</li>
-                          <li>8/30/2008 - "New Couple", "Goodbye, My Son", "A Stroll in the Garden", "Surprise Awakening from a Dream" at the California Institute for Chinese Performing Art, El Monte</li>
-                          <li>7/25/2009 - "A Stroll in the Garden", "Steals the Poem", "Broken Bridge", "A Maddening Dream" at the California Institute for Chinese Performing Art, El Monte</li>
-                        </ul>
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-                      1990-1999
-                    </button>
-                  </h2>
-                  <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">
-                        <ul>
-                          <li>6/23/1990 - "Broken Bridge" at the San Gabriel Civic Auditorium, San Gabriel</li>
-                          <li>9/2/1990 - "Broken Bridge" at the Chinese Moon Festival in Los Angeles Chinatown</li>
-                          <li>5/22/1993 - "Escorting Lady Jing-Niang" at Rosemead High School, Rosemead</li>
-                          <li>5/29/1993 - "Mischief at Class", "A Stroll in the Garden", "Surprise Awakening from a Dream", "Kill General Tiger" at the Chinese Culture Center, El Monte</li>
-                          <li>6/11/1994 - "Happy Union" at the Chinese Culture Center, El Monte</li>
-                          <li>4/30/1995 - "Flirtation with the Zither", "Buddhist Nun Longing to Return the World", "Banquet for Two" at Chinese Culture Center, El Monte</li>
-                          <li>6/2/1996 - "Escorting Lady Jing-Niang" at the Chinese Culture Center, El Monte</li>
-                          <li>2/2/1997 - "Buddhist Nun Longing to Return the World, "Banquet for Two" at the Barclay Theatre, Irvine"</li>
-                          <li>6/7/1997 - "A Maddening Dream" at the Chinese Culture Center, El Monte</li>
-                          <li>5/23/1998 - "Steals the Poem" by Yue Meiti and Zhang Jingxian at Evergreen Bookstore, Monterey Park</li>
-                          <li>6/6/1998 - "Dreamland Revisited", "Refuse for Remarriage", "Broken Bridge", "Village Searching" at the Chinese Culture Center, El Monte</li>
-
-                        </ul>
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
-                      1979-1989
-                    </button>
-                  </h2>
-                  <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">
-                        <ul>
-                          <li>7/1979 - Weekly meetings at Mama Yu's residence in Monterey Park</li>
-                          <li>4/11/1981 - "A Stroll in the Garden" by Lisa Lu and Li-Yung Wang at the Los Angeles County Museum of Art, Los Angeles</li>
-                          <li>2/23/1985 - "Riverside of Chu" at Pasadena City College, Pasadena</li>
-                          <li>9/6/1987 - "A Stroll in the Garden" at San Diego State University, San Diego</li>
-                          <li>6/1989 - "Happy Union" at Jackson School, Rosemead</li>
-                          <li>8/1989 - Chinese Kwun Opera Society established as a non-profit organization</li>
-                        </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-        </div>
-        <div class="p-5" id="contact">
-            <h1>Contact Us</h1>
-            <p>You can reach us at <a href="mailto:info@kunquopera.org">info@kunquopera.org</a></p>
-        </div>
-    </main>
-    <script src="js/bootstrap.bundle.js"></script>
-    <script src="js/scripts.js"></script>
+  <script src="js/bootstrap.bundle.js"></script>
+  <script src="js/scripts.js"></script>
 </body>
-
 </html>
